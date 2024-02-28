@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mamatha- Portfolio</title>
+    <style>
+
+
+        #left{
+            background-image: url(background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color:black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        #container {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        #right {
+            width: 200px;
+            background-color:black;
+            color: white;
+            padding: 1em;
+            min-height: 100vh;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+        #s1{
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-top: 10px;
+            padding-left: 500px;
+            padding-right: 500px;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="left">
+            <header>
+                <img src="personal_photo.jpeg" alt="MAMATHA" height="200px" width="200px">
+                <h1>S Mamatha</h1>
+                 <h4>Student & Web Developer</h4>
+             </header>
+             <p>Hi, I'm Mamatha, a passionate student with a keen interest in web development.<br> I love learning new technologies and building creative projects.<br>
+                I find joy in bringing ideas to life through coding and creating engaging, user-friendly websites. </p>
+            <h1 id="s1">Contact Me:</h1>
+            <ul type="square">
+                <li class="fa fa-envelope">smamatha1509@gmail.com</li><br>
+                <li class="fa fa-phone">7416314281</li><br>
+                <li><a href="https://www.linkedin.com/in/s-mamatha-492b042b4/" class="fa fa-linkedin">Linkedin</a></li>
+            </ul>
+        </div>
+
+        <div id="right">
+            <nav>
+                <a href="About.html">About Me</a>
+                <a href="Skills.html">Skills</a>
+                <a href="Certifications.html">Certifications</a>
+            </nav>
+        </div>
+
+    </div>
+
+</body>
+</html>
